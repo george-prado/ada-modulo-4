@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Churrascômetro</title>
+    <link rel="stylesheet" href="styles.css">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="flex j-end a-center mr-1">
+        <p class="mr-1">Tema Escuro</p>
+        <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+        </label>
+    </nav>
+    <main>
+        <h1 class="tx-center mt-1">Churrascômetro</h1>
+
+        <div class="tx-center mb-2">
+            <p class="mt-2">
+                Precisa de uma ajudinha com o churrasco? :)
+            </p>
+            <p class="mt-1">
+                Quantas pessoas vão participar?
+            </p>
+        </div>
+
+        <div class="w-80 flex j-evenly a-center mt-4 mx tx-center">
+            <div class="flex-col box j-center a-center">
+                <p class="black bold">Homens</p>
+                <h2 class="subtitle-size dark-brown">0</h2>
+                <div class="flex gap">
+                    <button class="flex btn minus-symbol-correction light-brown j-center a-center bold">-</button>
+                    <button class="btn light-brown bold">+</button>
+                </div>
+            </div>
+            
+            <div class="flex-col box j-center a-center">
+                <p class="black bold">Mulheres</p>
+                <h2 class="subtitle-size dark-brown">0</h2>
+                <div class="flex gap">
+                    <button class="flex btn minus-symbol-correction light-brown j-center a-center bold">-</button>
+                    <button class="btn light-brown bold">+</button>
+                </div>
+            </div>
+            
+            <div class="flex-col box j-center a-center">
+                <p class="black bold">Crianças</p>
+                <h2 class="subtitle-size dark-brown">0</h2>
+                <div class="flex gap">
+                    <button class="flex btn minus-symbol-correction light-brown j-center a-center bold">-</button>
+                    <button class="btn light-brown bold">+</button>
+                </div>
+            </div>
+           
+            <div class="flex-col box j-center a-center">
+                <p class="black bold">Quantos bebem?</p>
+                <h2 class="subtitle-size dark-brown">0</h2>
+                <div class="flex gap">
+                    <button class="flex btn minus-symbol-correction light-brown j-center a-center bold">-</button>
+                    <button class="btn light-brown bold">+</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex j-center mt-4">
+            <button class="calc-btn"><a class="black" href="">Calcular</a></button>
+        </div>
+    </main>
+</body>
+</html>
