@@ -1,0 +1,19 @@
+main p {
+    width: 30vw;
+}
+
+.form-width {
+    width: 20vw;
+}
+
+.form-height {
+    height: 25vh;
+}
+
+.input-format {
+    height: 2.2em;
+    border-radius: 6px;
+    background-color: var( --inner-bg-color);
+    border: .125em solid var(--inner-box-border-color);
+    text-align: center;
+}
