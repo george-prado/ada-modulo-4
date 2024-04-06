@@ -25,7 +25,7 @@ h1 {
     color: var(--title-color);
     font-weight: 500;
     font-size: 3.6em;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    text-shadow: 0.01rem 0.01rem 0.01rem rgba(0, 0, 0, 0.2);
 }
 
 .bold {
@@ -190,7 +190,7 @@ h1 {
   }
   
   input:focus + .slider {
-    box-shadow: 0 0 1px #000;
+    box-shadow: 0 0 0.01rem #000;
   }
   
   input:checked + .slider:before {
