@@ -17,3 +17,13 @@ main p {
     border: .125em solid var(--inner-box-border-color);
     text-align: center;
 }
+
+.check-width {
+    width: 24vw;
+}
+
+input#check {
+    align-self: flex-start;
+    margin-right: .5rem;
+    margin-left: 0;
+}
