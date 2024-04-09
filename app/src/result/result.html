@@ -1,22 +1,84 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Churrascômetro</title>
-    <link rel="stylesheet" href="../../../styles.css">
-    <link rel="stylesheet" href="result.css">
-</head>
-<body>
+    <link rel="stylesheet" href="../../../styles.css" />
+    <link rel="stylesheet" href="result.css" />
+  </head>
+  <body>
     <nav class="flex j-end a-center mr-1">
-        <p class="mr-1">Tema Escuro</p>
-        <label class="switch">
-            <input type="checkbox">
-            <span class="slider round"></span>
-        </label>
+      <p class="mr-1">Tema Escuro</p>
+      <label class="switch">
+        <input type="checkbox" />
+        <span class="slider round"></span>
+      </label>
     </nav>
-    <main>
+    <main class="flex-col mx mt-1">
+      <h1 class="tx-center">Churrascômetro</h1>
 
+      <div class="tx-center mx">
+        <p class="mt-2">Confira a lista para o seu churrasco!</p>
+
+        <p class="mt-2 guest">5 convidados</p>
+
+        <div class="flex j-evenly mt-2">
+          <p>1 homem</p>
+          <p>2 mulheres</p>
+          <p>2 crianças</p>
+        </div>
+      </div>
+
+      <table class="tx-center mx black mt-2">
+        <thead>
+          <th class="tx-left bold tx-space">ITEM</th>
+          <th class="tx-right bold tx-space">QUANTIDADE</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="tx-left bold row">Carne</td>
+            <td class="tx-right row">1.4 kg</td>
+          </tr>
+          <tr>
+            <td class="tx-left bold row">Pão de Alho</td>
+            <td class="tx-right row">8 unidades</td>
+          </tr>
+          <tr>
+            <td class="tx-left bold row">Refrigerante</td>
+            <td class="tx-right row">1 garrafa de 2L</td>
+          </tr>
+          <tr>
+            <td class="tx-left bold row">Água</td>
+            <td class="tx-right row">1 garrafa de 1L</td>
+          </tr>
+          <tr>
+            <td class="tx-left bold row">Cerveja</td>
+            <td class="tx-right row">3 garrafas de 600mL</td>
+          </tr>
+          <tr>
+            <td class="tx-left bold row">Carvão</td>
+            <td class="tx-right row">5 kg</td>
+          </tr>
+          <tr>
+            <td class="tx-left bold row">Sal</td>
+            <td class="tx-right row">0.2 kg</td>
+          </tr>
+          <tr>
+            <td class="tx-left bold row">Gelo</td>
+            <td class="tx-right row">2.5 kg</td>
+          </tr>
+          <tr>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="flex j-center mt-2">
+        <button class="calc-btn page-end">
+          <a class="black" href="">Novo Cálculo</a>
+        </button>
+      </div>
     </main>
-</body>
+  </body>
 </html>

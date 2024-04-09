@@ -1,0 +1,38 @@
+table {
+  width: 28vw;
+  background-color: var(--inner-bg-color);
+  border: 2px solid var(--inner-box-border-color);
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 10px;
+}
+
+th,
+td {
+  padding: 0.625rem 1.625rem;
+}
+
+th {
+  padding-top: 20px;
+}
+
+.row {
+  border-bottom: 1px solid var(--inner-box-border-color);
+  border-collapse: collapse;
+}
+
+.last-row {
+  padding-bottom: 22px;
+}
+
+.tx-space {
+  letter-spacing: 1px;
+}
+
+.guest {
+  color: var(--button-color);
+}
+
+.page-end {
+  margin-bottom: 4rem;
+}
