@@ -30,14 +30,13 @@ h1 {
 
 .w-80 { width: 80%; }
 
-
-
-
 .black { color: #000; }
 .dark-brown { color: var(--inner-button-color); }
 .light-brown { color: var(--inner-button-text-color); }
 
 .bold { font-weight: 600; }
+.tx-left { text-align: left; }
+.tx-right { text-align: right; }
 .tx-center { text-align: center; }
 .tx-justify { text-align: justify; }
 .check-size { font-size: .8em; }
@@ -82,7 +81,7 @@ h1 {
 }
 
 .calc-btn {
-    width: 8em;
+    width: 9em;
     height: 2.6em;
     background-color: var(--button-color);
     border-radius: .6rem;
