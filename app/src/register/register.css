@@ -1,25 +1,35 @@
-main p { width: 30vw; }
+main p {
+  width: 30vw;
+}
 
-.form-width { width: 20vw; }
-.form-height { height: 25vh; }
-.check-width { width: 24vw; }
+.form-width {
+  width: 20vw;
+}
+.form-height {
+  height: 25vh;
+}
+.check-width {
+  width: 24vw;
+}
+.navigation-width {
+  width: 30vw;
+}
 
-input::placeholder { font-weight: 600; }
+input::placeholder {
+  font-weight: 600;
+}
 
 .input-format {
-    height: 2.6em;
-    border-radius: 6px;
-    background-color: var( --inner-bg-color);
-    border: .15em solid var(--inner-box-border-color);
-    text-align: center;
+  height: 2.6em;
+  border-radius: 6px;
+  background-color: var(--inner-bg-color);
+  border: 0.15em solid var(--inner-box-border-color);
+  text-align: center;
 }
 
 input#check {
-    align-self: flex-start;
-    margin-right: .5rem;
-    margin-left: 0;
-}
-
-.navigation-width {
-    width: 30vw;
+  align-self: flex-start;
+  margin-top: 0;
+  margin-right: 0.5rem;
+  margin-left: 0;
 }
