@@ -1,3 +1,5 @@
+@charset 'UTF-8';
+
 table {
   width: 28vw;
   background-color: var(--inner-bg-color);
