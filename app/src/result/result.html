@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="../../../styles.css" />
     <link rel="stylesheet" href="result.css" />
   </head>
-  <body>
+  <body class="dark-theme">
     <nav class="flex j-end a-center mr-1">
       <p class="mr-1">Tema Escuro</p>
       <label class="switch">
-        <input type="checkbox" />
+        <input type="checkbox" id="btnTheme" checked />
         <span class="slider round"></span>
       </label>
     </nav>
@@ -38,35 +38,35 @@
         <tbody>
           <tr>
             <td class="tx-left bold row">Carne</td>
-            <td class="tx-right row">1.4 kg</td>
+            <td class="tx-right row" id="meatAmount">1.4 kg</td>
           </tr>
           <tr>
             <td class="tx-left bold row">Pão de Alho</td>
-            <td class="tx-right row">8 unidades</td>
+            <td class="tx-right row" id="garlicBreadAmount">8 unidades</td>
           </tr>
           <tr>
             <td class="tx-left bold row">Refrigerante</td>
-            <td class="tx-right row">1 garrafa de 2L</td>
+            <td class="tx-right row" id="sodaAmount">1 garrafa de 2L</td>
           </tr>
           <tr>
             <td class="tx-left bold row">Água</td>
-            <td class="tx-right row">1 garrafa de 1L</td>
+            <td class="tx-right row" id="waterAmount">1 garrafa de 1L</td>
           </tr>
           <tr>
             <td class="tx-left bold row">Cerveja</td>
-            <td class="tx-right row">3 garrafas de 600mL</td>
+            <td class="tx-right row" id="beerAmount">3 garrafas de 600mL</td>
           </tr>
           <tr>
             <td class="tx-left bold row">Carvão</td>
-            <td class="tx-right row">5 kg</td>
+            <td class="tx-right row" id="coalAmount">5 kg</td>
           </tr>
           <tr>
             <td class="tx-left bold row">Sal</td>
-            <td class="tx-right row">0.2 kg</td>
+            <td class="tx-right row" id="saltAmount">0.2 kg</td>
           </tr>
           <tr>
             <td class="tx-left bold row">Gelo</td>
-            <td class="tx-right row">2.5 kg</td>
+            <td class="tx-right row" id="bbqIceAmount">2.5 kg</td>
           </tr>
           <tr>
             <td></td>
@@ -75,12 +75,11 @@
       </table>
 
       <div class="flex j-center mt-2">
-        <button class="calc-btn page-end">
-          <a class="black" href="">Novo Cálculo</a>
-        </button>
+        <button class="calc-btn page-end" onclick="newBBQ()">Novo Cálculo</button>
       </div>
     </main>
 
     <script src="../../../script.js"></script>
+    <script src="../../../theme.js"></script>
   </body>
 </html>

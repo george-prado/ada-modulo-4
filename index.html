@@ -8,11 +8,11 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="dark-theme">
     <nav class="flex j-end a-center mr-1">
         <p class="mr-1">Tema Escuro</p>
         <label class="switch">
-            <input type="checkbox">
+            <input type="checkbox" id="btnTheme" checked>
             <span class="slider round"></span>
         </label>
     </nav>
@@ -31,7 +31,7 @@
         <div class="w-80 flex j-evenly a-center mt-4 mx tx-center">
             <div class="flex-col box j-center a-center">
                 <p class="black bold">Homens</p>
-                <h2 class="subtitle-size dark-brown" id="manCount">0</h2>
+                <h2 class="subtitle-size dark-brown" id="manCount"></h2>
                 <div class="flex gap">
                     <button class="flex btn minus-symbol-correction light-brown j-center a-center bold" onclick="counterManager('man', 'subtract')">-</button>
                     <button class="btn light-brown bold" onclick="counterManager('man', 'add')">+</button>
@@ -40,7 +40,7 @@
             
             <div class="flex-col box j-center a-center">
                 <p class="black bold">Mulheres</p>
-                <h2 class="subtitle-size dark-brown" id="womanCount">0</h2>
+                <h2 class="subtitle-size dark-brown" id="womanCount"></h2>
                 <div class="flex gap">
                     <button class="flex btn minus-symbol-correction light-brown j-center a-center bold" onclick="counterManager('woman', 'subtract')">-</button>
                     <button class="btn light-brown bold" onclick="counterManager('woman', 'add')">+</button>
@@ -49,7 +49,7 @@
             
             <div class="flex-col box j-center a-center">
                 <p class="black bold">Crianças</p>
-                <h2 class="subtitle-size dark-brown" id="childCount">0</h2>
+                <h2 class="subtitle-size dark-brown" id="childCount"></h2>
                 <div class="flex gap">
                     <button class="flex btn minus-symbol-correction light-brown j-center a-center bold" onclick="counterManager('child', 'subtract')">-</button>
                     <button class="btn light-brown bold" onclick="counterManager('child', 'add')">+</button>
@@ -58,7 +58,7 @@
            
             <div class="flex-col box j-center a-center">
                 <p class="black bold">Quantos bebem?</p>
-                <h2 class="subtitle-size dark-brown" id="drinkingCount">0</h2>
+                <h2 class="subtitle-size dark-brown" id="drinkingCount"></h2>
                 <div class="flex gap">
                     <button class="flex btn minus-symbol-correction light-brown j-center a-center bold" onclick="counterManager('drinking', 'subtract')">-</button>
                     <button class="btn light-brown bold" onclick="counterManager('drinking', 'add')">+</button>
@@ -72,5 +72,6 @@
     </main>
 
     <script src="script.js"></script>
+    <script src="theme.js"></script>
 </body>
 </html>

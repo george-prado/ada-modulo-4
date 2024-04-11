@@ -11,7 +11,7 @@
     <nav class="flex j-end a-center mr-1">
         <p class="mr-1">Tema Escuro</p>
         <label class="switch">
-            <input type="checkbox">
+            <input type="checkbox" id="btnTheme" checked>
             <span class="slider round"></span>
         </label>
     </nav>
@@ -25,21 +25,22 @@
             </p>
         </div>
 
-        <div class="flex-col form-width form-height mx j-evenly mt-2">
-            <input class="input-format" type="text" name="" id="name" placeholder="Digite seu nome">
-            <input class="input-format" type="text" name="" id="email" placeholder="Digite seu E-mail">
-            <input class="input-format" type="text" name="" id="cep" placeholder="Digite seu CEP">
-        </div>
-
-        <div class="flex mt-2 mx check-width">
-            <input type="checkbox" class="" id="check">
-            <label class="tx-justify check-size" for="check">
-                Concordo em receber comunicações e ofertas personalizadas de acordo com meus interesses.
-            </label>
-        </div>
-        <div class="flex j-center mt-2">
-            <button class="calc-btn"><a class="black" href="">Cadastrar</a></button>
-        </div>
+        <form id="signIn">
+            <div class="flex-col form-width form-height mx j-evenly mt-2">
+                <input class="input-format" type="text" name="" id="name" placeholder="Digite seu nome" required>
+                <input class="input-format" type="email" name="" id="email" placeholder="Digite seu E-mail" required>
+                <input class="input-format" type="text" name="" id="cep" placeholder="Digite seu CEP" pattern="^[0-9]{2}.?[0-9]{3}-?[0-9]{3}$" required>
+            </div>
+            <div class="flex mt-2 mx check-width">
+                <input type="checkbox" class="" id="check" checked>
+                <label class="tx-justify check-size" for="check">
+                    Concordo em receber comunicações e ofertas personalizadas de acordo com meus interesses.
+                </label>
+            </div>
+            <div class="flex j-center mt-2">
+                <input type="submit" class="calc-btn black" value="Cadastrar"></input>
+            </div>
+        </form>
 
         <div class="flex navigation-width j-between mx mt-1">
             <a class="black bold" href="../../../index.html">Voltar</a>
@@ -48,5 +49,6 @@
     </main>
 
     <script src="../../../script.js"></script>
+    <script src="../../../theme.js"></script>
 </body>
 </html>
