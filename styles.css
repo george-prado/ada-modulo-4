@@ -11,6 +11,16 @@
     --inner-button-text-color: #C58E61;
 }
 
+.dark-theme {
+  background-color: var(--bg-color);
+  color: #f5f5f5;
+}
+
+.light-theme {
+  background-color: #ECECEC;
+  color: #050505;
+}
+
 h1, h2, h3, p, a {
     margin: 0;
     padding: 0;
@@ -29,6 +39,8 @@ h1 {
     font-size: 3.6em;
     text-shadow: 0.01rem 0.01rem 0.01rem rgba(0, 0, 0, 0.2);
 }
+
+
 
 .w-80 { width: 80%; }
 
